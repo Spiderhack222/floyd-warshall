@@ -13,10 +13,10 @@ Matriz final de distancias D:
          2          5          7          0
 
 Matriz de 'next' (para reconstruir rutas):
-     0      1      1      1
-     2      1      2      2
-     3      3      2      3
-     0      0      0      3
+     1      2      2      2
+     3      2      3      3
+     4      4      3      4
+     1      1      1      4
 
 Mostrando hasta 3 rutas reconstruidas (origen -> destino):
 1 -> 2 : distancia = 3 ; ruta: 1 -> 2

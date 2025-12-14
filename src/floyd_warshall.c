@@ -105,8 +105,8 @@ void print_ll_matrix(ll **m, int n, FILE *out) {
 void print_int_matrix(int **m, int n, FILE *out) {
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
-            if (m[i][j] == -1) fprintf(out, "%6s", "-1");
-            else fprintf(out, "%6d", m[i][j]);
+            if (m[i][j] == -1) fprintf(out, "%6s", "-");
+            else fprintf(out, "%6d", m[i][j] + 1);
             if (j+1 < n) fprintf(out, " ");
         }
         fprintf(out, "\n");
